@@ -36,8 +36,8 @@ export default class DecodingBlock extends React.PureComponent {
 
   render() {
     return (
-      <div className="encodingBlockWrapper">
-        <label className="encodingLabel">Decoding Block</label>
+      <div className="decodingBlockWrapper">
+        <label className="decodingLabel">Decoding Block</label>
         <textarea
           className="decodingTextArea"
           value={this.state.decodingTextAreaValue}

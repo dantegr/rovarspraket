@@ -1,17 +1,10 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import EncodingBlock from "./components/EncodingBlock/EncodingBlock";
 import DecodingBlock from "./components/DecodingBlock/DecodingBlock";
 
 function App() {
   const [encodedResult, setEncodedResult] = useState("");
-
-  const wrapperSetEncodedResult = useCallback(
-    (val) => {
-      setEncodedResult(val);
-    },
-    [setEncodedResult]
-  );
 
   return (
     <div className="App">
@@ -24,7 +17,7 @@ function App() {
       <div className="blocksWrapper">
         <EncodingBlock
           encodedResult={encodedResult}
-          setEncodedResult={wrapperSetEncodedResult}
+          setEncodedResult={setEncodedResult}
         />
         <hr className="divider" />
         <DecodingBlock encodedResult={encodedResult} />
