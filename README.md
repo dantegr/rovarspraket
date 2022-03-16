@@ -1,6 +1,6 @@
 # Rövarspråket
 
-This application is an implementation of the code language Rövarspråket mainly used by childre [Rövarspråket](https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket)
+This application is an implementation of the code language Rövarspråket mainly used by children. [Rövarspråket](https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket)
 
 You can also find a deployed verrsion here (https://rovarspraket.netlify.app/)
 
